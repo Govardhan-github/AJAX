@@ -16,9 +16,9 @@
       "salary": 300000
     },
     {
-      "id": 4,
-      "name": "Sandeep",
-      "salary": 300000
+      "name": "XYZ",
+      "salary": "2000",
+      "id": 4
     }
   ]
 }
