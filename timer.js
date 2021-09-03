@@ -1,8 +1,8 @@
 function showTime(){
     const date = new Date;
     return date.getHours() + "Hrs:" +date.getMinutes() +"Mins:"+ date.getSeconds() +"Secs:"; 
+    
 }
-
 function showsessionExpire(){
     console.log("Activity-B: Your Session expired at "+showTime());
 
