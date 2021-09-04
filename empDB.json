@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Govardhan",
-      "salary": 4542000
+      "salary": 800000
     },
     {
       "id": 2,
@@ -13,10 +13,17 @@
     {
       "id": 3,
       "name": "Nandu",
-      "salary": 300000
+      "salary": 500000
     },
     {
-      "id": 4
+      "id": 4,
+      "name": "Sandeep",
+      "salary": 400000
+    },
+    {
+      "id": 5,
+      "name": "Gopi",
+      "salary": 900000
     }
   ]
 }

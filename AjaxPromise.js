@@ -10,7 +10,7 @@ function showTime() {
     'Secs:'
   );
 }
-function makePromiseCall(methodType, url, callback, asyn = true, data = null) {
+function makePromiseCall(methodType, url, callback, async = true, data = null) {
   return new Promise(function (resolve, reject) {
     let xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -28,7 +28,7 @@ function makePromiseCall(methodType, url, callback, asyn = true, data = null) {
         }
       }
     };
-    xhr.open(methodType, url, asyn);
+    xhr.open(methodType, url, async);
     if (data) {
       xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.send(JSON.stringify(data));
